@@ -21,12 +21,12 @@ Code in this repository can and will be changed along with changes made to the t
 ## CLI and REST helpers
 The example Content Type with TweetFieldType can be created from CLI using the following command:
 ```bash
-php app/console ezsystems:tweet-fieldtype:create-contenttype
+php bin/console ezsystems:tweet-fieldtype:create-contenttype
 ```
 
 The example Content Object can be created from CLI using the following command:
 ```bash
-php app/console ezsystems:tweet-fieldtype:create-content
+php bin/console ezsystems:tweet-fieldtype:create-content
 ```
 
 Alternatively, you can use REST API. Content Type creation example using curl (requires enabling basic auth based configuration: https://doc.ezplatform.com/en/latest/api/rest_api_guide/#authentication):
